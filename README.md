@@ -1,3 +1,5 @@
+# goit-pythonweb-hw-04
+
 # Asynchronous File Sorter
 
 This script asynchronously sorts files from a source folder into subfolders within a target directory based on their extensions.
@@ -18,7 +20,7 @@ This script asynchronously sorts files from a source folder into subfolders with
 ## Installation
 
 ```bash
-git clone <repository-url>
+git clone https://github.com/sandrey88/goit-pythonweb-hw-04.git
 cd <repository-name>
 ```
 
@@ -29,6 +31,7 @@ python3 file_sorter.py <source_folder> <destination_folder>
 ```
 
 Example:
+
 ```bash
 python3 file_sorter.py ~/Downloads ~/Sorted_Files
 ```
@@ -37,16 +40,6 @@ python3 file_sorter.py ~/Downloads ~/Sorted_Files
 
 - `source_folder`: Path to the folder containing files to be sorted
 - `destination_folder`: Path to the folder where sorted files will be placed
-
-## Project Structure
-
-```
-.
-├── README.md
-├── requirements.txt
-├── file_sorter.py
-└── .gitignore
-```
 
 ## How It Works
 
@@ -60,13 +53,8 @@ python3 file_sorter.py ~/Downloads ~/Sorted_Files
 ## Logging
 
 The script creates detailed logs that include:
+
 - Start of the sorting process
 - Copying of each file
 - Any errors that occur during the process
 - Process completion with summary
-
-## Error Handling
-
-- Source folder existence verification
-- Automatic creation of target folder and subfolders
-- Logging of all errors with detailed information
